@@ -101,7 +101,7 @@
     "docs:build": "gulp docs",
     "docs:watch": "gulp watch site --dev",
     "gulp": "gulp",
-    "prepack": "npm i && npm build",
+    "prepack": "npm i && npm run build",
     "lint": "eslint .",
     "test:fast": "gulp karma-fast",
     "test:full": "gulp karma",
