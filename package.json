@@ -101,7 +101,7 @@
     "docs:build": "gulp docs",
     "docs:watch": "gulp watch site --dev",
     "gulp": "gulp",
-    "postinstall": "cd node_modules/angular-material",
+    "postinstall": "npm i && npm build",
     "lint": "eslint .",
     "test:fast": "gulp karma-fast",
     "test:full": "gulp karma",
