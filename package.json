@@ -101,9 +101,10 @@
     "docs:build": "gulp docs",
     "docs:watch": "gulp watch site --dev",
     "gulp": "gulp",
+    "postinstall": "mv node_modules/angular-material-source node_modules/angular-material && cd node_modules/angular-material && npm i && npm run build",
+    "lint": "eslint .",
     "test:fast": "gulp karma-fast",
     "test:full": "gulp karma",
-    "lint": "eslint .",
     "lint:jshint": "gulp jshint"
   },
   "browserslist": [
